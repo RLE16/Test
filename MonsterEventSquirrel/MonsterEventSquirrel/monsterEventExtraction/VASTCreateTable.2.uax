@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<instances>
+ <instance id="VASTCreateTable.2" instanceOf="CAST_Oracle_RelationalTable">
+  <CAST_SQL_Object owner="MONSTER_EVENT" version="9.2.0.7.0" objectId="77951066"/>
+  <CAST_ANSISQL_TableSource scope=""/>
+  <CAST_Resolution_Identification resolutionName="EVENT_OPTIONS"/>
+  <CAST_Linker_ExportedSymbol isPublic="1" exportCollation="2" exportedCategory="138016" exportedPath="O92CASTA.MONSTER_EVENT" exportName="EVENT_OPTIONS" exportExtension=""/>
+  <CAST_AST_ANSISQL_WithAnonymousClause anonymousClause="" onCommit=""/>
+  <CAST_Symbol_WithParent parent="p_Schema.1"/>
+  <POSITIONABLE POSITIONS="CAST_TargetSourceFile.2(1,1,7,-1)"/>
+ </instance>
+ <instance id="CAST_TargetSourceFile.2" instanceOf="CAST_TargetSourceFile">
+  <bookmark source="VASTCreateTable.2.src"/>
+  <shell fullPath="VASTCreateTable.2.src"/>
+ </instance>
+<instance id="p_ColumnOfTable.3" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="0" columnSize="19"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="EVENT_ID"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="19" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.4" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="2"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="0" columnSize="19"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="OPTION_ID"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="19" scale="0"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference.5" instanceOf="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="OPTION_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKPKConstraint.2"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.43"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference.6" instanceOf="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="COMMAND_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKPKConstraint.1"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.34"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference.1" instanceOf="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="EVENT_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKConstraint.1"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.3"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference.2" instanceOf="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="OPTION_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKConstraint.2"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.4"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_GenericColumnReference.3" instanceOf="CAST_AST_ANSISQL_GenericColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order=""/>
+ <CAST_AST_WithParent parentAST="p_Constraint.8"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.3"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_GenericColumnReference.4" instanceOf="CAST_AST_ANSISQL_GenericColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order=""/>
+ <CAST_AST_WithParent parentAST="p_Constraint.9"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.4"/>
+</instance>
+<instance id="p_FKPKConstraint.1" instanceOf="CAST_ANSISQL_GenericForeignConstraintColumnReferences">
+ <CAST_AST_ANSISQL_ForeignConstraintColumnReferences foreignConstraintTable="VASTCreateTable.2" foreignConstraintReference="p_Constraint.4"/>
+ <CAST_Symbol_WithParent parent="p_FKConstraint.1"/>
+</instance>
+<instance id="p_FKPKConstraint.2" instanceOf="CAST_ANSISQL_GenericForeignConstraintColumnReferences">
+ <CAST_AST_ANSISQL_ForeignConstraintColumnReferences foreignConstraintTable="VASTCreateTable.2" foreignConstraintReference="p_Constraint.5"/>
+ <CAST_Symbol_WithParent parent="p_FKConstraint.2"/>
+</instance>
+<instance id="p_FKConstraint.1" instanceOf="CAST_Oracle_ForeignKeyConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_AST_ANSISQL_ForeignKeyConstraint referentialTriggeredAction="NO ACTION"/>
+ <CAST_Oracle_ForeignKeyConstraint referencedConstraint="MONSTER_EVENT.SYS_C0051649481"/>
+ <CAST_Resolution_Identification resolutionName="FK825919B9694216E7"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="0"/>
+</instance>
+<instance id="p_FKConstraint.2" instanceOf="CAST_Oracle_ForeignKeyConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_AST_ANSISQL_ForeignKeyConstraint referentialTriggeredAction="NO ACTION"/>
+ <CAST_Oracle_ForeignKeyConstraint referencedConstraint="MONSTER_EVENT.SYS_C0051649485"/>
+ <CAST_Resolution_Identification resolutionName="FK825919B96EA93FCC"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="0"/>
+</instance>
+<instance id="p_Constraint.8" instanceOf="CAST_Oracle_CheckConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_CheckConstraint conditionExpression="&quot;EVENT_ID&quot; IS NOT NULL"/>
+ <CAST_Resolution_Identification resolutionName="SYS_C0051649472"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="1"/>
+</instance>
+<instance id="p_Constraint.9" instanceOf="CAST_Oracle_CheckConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_CheckConstraint conditionExpression="&quot;OPTION_ID&quot; IS NOT NULL"/>
+ <CAST_Resolution_Identification resolutionName="SYS_C0051649473"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.2"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="1"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.3" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.3"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.4" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.4"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+</instances>

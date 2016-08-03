@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<instances>
+ <instance id="VASTCreateTable.6" instanceOf="CAST_Oracle_RelationalTable">
+  <CAST_SQL_Object owner="MONSTER_EVENT" version="9.2.0.7.0" objectId="77951074"/>
+  <CAST_ANSISQL_TableSource scope=""/>
+  <CAST_Resolution_Identification resolutionName="SPOOKY_EVENT"/>
+  <CAST_Linker_ExportedSymbol isPublic="1" exportCollation="2" exportedCategory="138016" exportedPath="O92CASTA.MONSTER_EVENT" exportName="SPOOKY_EVENT" exportExtension=""/>
+  <CAST_AST_ANSISQL_WithAnonymousClause anonymousClause="" onCommit=""/>
+  <CAST_Symbol_WithParent parent="p_Schema.1"/>
+  <POSITIONABLE POSITIONS="CAST_TargetSourceFile.6(1,1,15,-1)"/>
+ </instance>
+ <instance id="CAST_TargetSourceFile.6" instanceOf="CAST_TargetSourceFile">
+  <bookmark source="VASTCreateTable.6.src"/>
+  <shell fullPath="VASTCreateTable.6.src"/>
+ </instance>
+<instance id="p_ColumnOfTable.34" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="0" columnSize="19"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="COMMAND_ID"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="19" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.35" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="2"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="11"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="ACTUAL_END"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="TIMESTAMP(6)" length="11" precision="" scale="6"/>
+</instance>
+<instance id="p_ColumnOfTable.36" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="3"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="11"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="ACTUAL_START"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="TIMESTAMP(6)" length="11" precision="" scale="6"/>
+</instance>
+<instance id="p_ColumnOfTable.37" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="4"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="10"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="PARTICIPANTS"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="10" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.38" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="5"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="11"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="PLANNED_END"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="TIMESTAMP(6)" length="11" precision="" scale="6"/>
+</instance>
+<instance id="p_ColumnOfTable.39" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="6"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="11"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="PLANNED_START"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="TIMESTAMP(6)" length="11" precision="" scale="6"/>
+</instance>
+<instance id="p_ColumnOfTable.40" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="7"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="10"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="STATUS"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="10" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.41" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="8"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="19"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="CUSTOMER_ID"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="19" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.42" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="9"/>
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="19"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="PLACE_ID"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="19" scale="0"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference.1" instanceOf="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="CUSTOMER_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKPKConstraint.5"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.22"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference.2" instanceOf="CAST_AST_ANSISQL_PrimaryKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="PLACE_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKPKConstraint.6"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.47"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference.5" instanceOf="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="PLACE_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKConstraint.5"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.42"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference.6" instanceOf="CAST_AST_ANSISQL_ForeignKeyConstraintColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_Named nameAST="CUSTOMER_ID"/>
+ <CAST_AST_WithParent parentAST="p_FKConstraint.6"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.41"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_GenericColumnReference.11" instanceOf="CAST_AST_ANSISQL_GenericColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_AST_WithParent parentAST="p_Constraint.4"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.34"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_GenericColumnReference.12" instanceOf="CAST_AST_ANSISQL_GenericColumnReference">
+ <CAST_AST_ANSISQL_WithOrder order=""/>
+ <CAST_AST_WithParent parentAST="p_Constraint.14"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_ColumnOfTable.34"/>
+</instance>
+<instance id="p_FKPKConstraint.5" instanceOf="CAST_ANSISQL_GenericForeignConstraintColumnReferences">
+ <CAST_AST_ANSISQL_ForeignConstraintColumnReferences foreignConstraintTable="VASTCreateTable.6" foreignConstraintReference="p_Constraint.3"/>
+ <CAST_Symbol_WithParent parent="p_FKConstraint.6"/>
+</instance>
+<instance id="p_FKPKConstraint.6" instanceOf="CAST_ANSISQL_GenericForeignConstraintColumnReferences">
+ <CAST_AST_ANSISQL_ForeignConstraintColumnReferences foreignConstraintTable="VASTCreateTable.6" foreignConstraintReference="p_Constraint.6"/>
+ <CAST_Symbol_WithParent parent="p_FKConstraint.5"/>
+</instance>
+<instance id="p_FKConstraint.5" instanceOf="CAST_Oracle_ForeignKeyConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_AST_ANSISQL_ForeignKeyConstraint referentialTriggeredAction="NO ACTION"/>
+ <CAST_Oracle_ForeignKeyConstraint referencedConstraint="MONSTER_EVENT.SYS_C0051649487"/>
+ <CAST_Resolution_Identification resolutionName="FKA2EC406687A4D3E8"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="0"/>
+</instance>
+<instance id="p_FKConstraint.6" instanceOf="CAST_Oracle_ForeignKeyConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_AST_ANSISQL_ForeignKeyConstraint referentialTriggeredAction="NO ACTION"/>
+ <CAST_Oracle_ForeignKeyConstraint referencedConstraint="MONSTER_EVENT.SYS_C0051649479"/>
+ <CAST_Resolution_Identification resolutionName="FKA2EC4066E0A2EBA1"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="0"/>
+</instance>
+<instance id="p_Constraint.4" instanceOf="CAST_Oracle_PrimaryKeyConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_Resolution_Identification resolutionName="SYS_C0051649481"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="1"/>
+</instance>
+<instance id="p_Constraint.14" instanceOf="CAST_Oracle_CheckConstraint">
+ <CAST_SQL_Object version="9.2.0.7.0"/>
+ <CAST_ANSISQL_CheckConstraint conditionExpression="&quot;COMMAND_ID&quot; IS NOT NULL"/>
+ <CAST_Resolution_Identification resolutionName="SYS_C0051649480"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.6"/>
+ <CAST_ANSISQL_Constraint nameIsDefinedByDBMS="1"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.34" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.35"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.38"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.35" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.36"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.38"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.36" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.34"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.37" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.41"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.38" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.37"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.39" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.42"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.40" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.38"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.38"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.41" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.39"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.38"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.42" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.40"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+</instances>

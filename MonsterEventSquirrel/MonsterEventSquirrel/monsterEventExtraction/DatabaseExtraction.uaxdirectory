@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UAXFiles>
+ <UAXOption name="configurationVersion" value="1.4"/>
+ <UAXOption name="platform" value="Oracle9i"/>
+ <UAXOption name="RDBMS.Version" value="9.2.0.7.0"/>
+ <UAXOption name="format" value="text"/>
+ <UAXOption name="totalFatalExtractionErrorsNb" value="0"/>
+ <UAXOption name="totalExtractionErrorsNb" value="0"/>
+ <UAXOption name="schema" value="MONSTER_EVENT"/>
+ <UAXOption name="RDBMS.Name" value="Oracle Server"/>
+ <UAXOption name="totalExportedRowsNb" value="252"/>
+ <UAXOption name="platform.type" value="3"/>
+ <UAXOption name="technicalVersion" value="1.00"/>
+ <UAXOption name="platform.description" value="PL/SQL"/>
+ <UAXOption name="configurationFilePath" value="CASTDatabase.config"/>
+ <UAXFile path="p_Server.1.uax" name="CASTASRV" type="CAST_SQL_Machine">
+  <UAXFile path="p_Instance.1.uax" name="O92CASTA" type="CAST_SQL_Instance">
+   <UAXFile path="p_Schema.1.uax" name="MONSTER_EVENT" type="CAST_SQL_Schema">
+    <UAXFile path="VASTCreateTable.1.uax" name="CURRENCY_RATES" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.2.uax" name="EVENT_OPTIONS" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.3.uax" name="MONSTER" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.4.uax" name="MONSTER_BOOKING" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.5.uax" name="SPOOKED_CUSTOMER" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.6.uax" name="SPOOKY_EVENT" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.7.uax" name="SPOOKY_OPTIONS" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.8.uax" name="SPOOKY_PLACE" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateSequence.1.uax" name="HIBERNATE_SEQUENCE" type="CAST_Oracle_Sequence"/>
+    <UAXFile path="VASTCreateIndex.1.uax" name="SYS_C0051649471" type="CAST_Oracle_Index"/>
+    <UAXFile path="VASTCreateIndex.2.uax" name="SYS_C0051649475" type="CAST_Oracle_Index"/>
+    <UAXFile path="VASTCreateIndex.3.uax" name="SYS_C0051649479" type="CAST_Oracle_Index"/>
+    <UAXFile path="VASTCreateIndex.4.uax" name="SYS_C0051649481" type="CAST_Oracle_Index"/>
+    <UAXFile path="VASTCreateIndex.5.uax" name="SYS_C0051649485" type="CAST_Oracle_Index"/>
+    <UAXFile path="VASTCreateIndex.6.uax" name="SYS_C0051649487" type="CAST_Oracle_Index"/>
+   </UAXFile>
+  </UAXFile>
+ </UAXFile>
+</UAXFiles>
